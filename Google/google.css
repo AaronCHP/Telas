@@ -14,16 +14,34 @@ body {
     justify-content: end;
     list-style: none;
 }
-.Top ul li {
-    margin-right: 10px;
+.Top ul li:nth-child(1) {
+    padding-right: 20px;
     text-emphasis-style: none;
 }
+.Top ul li:nth-child(2) {
+    padding-right: 20px;
+    margin-right: 100px;
+    text-emphasis-style: none;
+}
+
 .Top ul li a {
     color: white;
     transition: 0.5;
 }
 .Top ul li a:hover {
     border-bottom: 1px solid white;
+}
+.Top button {
+    position: absolute;
+    margin-top: -5px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+.Top button:hover {
+    width: 120px;
+    margin-right: -10px;
+    transition: 0.5s;
 }
 .centro  {
     display: flex;
