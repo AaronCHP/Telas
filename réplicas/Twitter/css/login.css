@@ -33,6 +33,11 @@ body {
     border-radius: 50px;
     border: none;
     cursor: pointer;
+    opacity: 0.5;
+}
+.login button:hover {
+    opacity: unset;
+    transition: 0.5s;
 }
 .login .fa {
     display: flex;
@@ -45,9 +50,15 @@ body {
     border-bottom: 2px solid white;
     padding-left: 10px;
     padding-right: 10px;
-}
-.user, .passwd, button {
     opacity: 0.5;
+}
+.user:hover {
+    opacity: unset;
+    transition: 0.5s;
+}
+.passwd:hover {
+    opacity: unset;
+    transition: 0.5s;
 }
 
 .links {
