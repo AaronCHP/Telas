@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    font-size: 15px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+}
+body {
+    background: rgb(21,32,43);
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.login h1 {
+    font-size: 23px;
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+.login input{
+    background: rgb(25, 39, 52);
+    border: none;
+    width: 520px;
+    height: 33px;
+    max-width: leng;
+}
+.login button {
+    background: rgb(29, 161, 242);
+    width: 550px;
+    height: 49px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.login .fa {
+    display: flex;
+    justify-content: center;
+    font-size: 43px;
+}
+
+.user, .passwd {
+    background: rgb(25, 39, 52);
+    border-bottom: 2px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.user, .passwd, button {
+    opacity: 0.5;
+}
+
+.links {
+    text-align: center;
+}
+.links span{
+    color: rgb(27, 149, 224);
+}
+.links a {
+    border: none;
+    text-decoration: none;
+    text-align: center;
+}
+.links a:hover {
+    border-bottom: 1px solid rgb(27, 149, 224);
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 768px) {
+    .login {
+        width: 100%;
+    }
+    .login input {
+        width: 200px;
+    }
+    .login button {
+        width: 310px;
+    }
+  }
