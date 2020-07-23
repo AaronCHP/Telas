@@ -1,123 +1,128 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
 body {
     background: rgb(34, 36, 64);
-}
-.Top ul{
-    margin-right: 30px;
-    margin-top: 20px;
-    display: flex;
-    justify-content: end;
-    list-style: none;
-}
-.Top ul li:nth-child(1) {
-    padding-right: 20px;
-    text-emphasis-style: none;
-}
-.Top ul li:nth-child(2) {
-    padding-right: 20px;
-    margin-right: 100px;
-    text-emphasis-style: none;
+    height: 100%;
 }
 
-.Top ul li a {
-    color: white;
-    transition: 0.5;
+.cima {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    border-top: 2px solid whitesmoke;
+    border-bottom: 2px solid whitesmoke;
 }
-.Top ul li a:hover {
-    border-bottom: 1px solid white;
+.cima a {
+    height: 20px;
+    color:white;
+    margin-top: 10px;
+    margin-left: 10px;
 }
-.Top button {
-    position: absolute;
-    margin-top: -5px;
+.cima a:nth-child(1), a:nth-child(2) {
+    margin-right: 20px;
+}
+.cima a:hover {
+    border-bottom: 2px solid white;
+}
+.cima button {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 20px;
     height: 30px;
     width: 100px;
-    cursor: pointer;
+    background: rgb(0,0,0,0.5);
+    color: white;
+    border: none;
 }
-.Top button:hover {
-    width: 120px;
-    margin-right: -10px;
-    transition: 0.5s;
+.cima button:hover {
+    background: rgb(34, 36, 64);
 }
-.centro  {
+
+.centro {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom:60px;
+    background: rgb(0, 0, 0, 0.5);
+}
+.centro img {
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 400px;
+    height: 150px;
+}
+.centro input {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 50px;
+    border-style: none;
+    width: 564px;
+    height: 46px;
+    font-size: 15px;
+}
+.botoes {
     display: flex;
     justify-content: center;
 }
-.centro img {
-    margin-top: 130px;
-    width: 500px;
-    margin-left: 10px;
+.botoes button {
     position: relative;
-}
-.centro input {
-    width: 600px;
-    height: 30px;
-    position: absolute;
-    margin-top: 320px;
-    margin-left: 10px;
-    border-radius: 100px;
-    padding-left: 20px;
-    padding-right: 20px;
-}
-.centro button{
-    top: 430px;
-    height: 30px;
-    width: 150px;
-    position: absolute;
-    border-radius: 30px;
-    cursor: pointer;
-}
-.centro button:hover {
-    width: 170px;
-    background: skyblue;
-    transition: 0.5s;
-}
-
-footer {
-    width: 100%;
-    margin-bottom: 0%;
-}
-.cima {
-    padding-left: 30px;
-    margin-top: 229px;
-    padding-top: 10px;
-    padding-bottom: 5px;
-    border-bottom: 5px solid gray;
-    background: silver;
-    position: flex;
-    height: 20px;
-}
-.baixo {
-    padding-left: 30px;
-    padding-top: 10px;
-    padding-bottom: 8px;
-    background: silver;
-    position: flex;
-    height: 20px;
-}
-.baixo ul {
-    display: flex;
-    list-style: none;
-}
-.baixo ul li {
-    display: flex;
-    padding-right: 10px;
-}
-.baixo ul li a {
-    color: black;
-    transition: 0.5s;
-}
-.baixo ul li a:hover {
-    border-bottom: 1px solid black;
-}
-.baixo ul li:nth-child(4) a {
-    margin-right: 610px;
+    margin: 20px;
+    margin-bottom: 40px;
+    border-radius: 50px;
     width: 200px;
+    height: 30px;
+    border: none;
+    background: rgb(29, 161, 242);
+    opacity: 0.5;
+}
+.botoes button:hover {
+    opacity: unset;
+    transition: 0.5s;
 }
 
+.pais {
+    position: absolute;
+    bottom: 41px;
+    display: flex;
+    width: 100%;
+    height: 40px;
+    border-top: 2px solid white;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.pais label {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.baixo {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    border-top: 1px solid white;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.baixo a{
+    display: inline-flex;
+    justify-content: ;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+.baixo a:hover {
+    border-bottom: 2px solid white;
+}
+.baixo a:nth-child(5) {
+    margin-left: 439.5px;
+}
 
 
